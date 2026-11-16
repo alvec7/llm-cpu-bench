@@ -7,7 +7,7 @@
 
 ## Стенд
 
-VPS у Justhost.ru с шаблоном Ollama: Intel Xeon Gold 6148, Ubuntu 24.04, swap 4 ГБ, Ollama 0.35.0 в Docker (llama.cpp 161755f29). В первой части – 4 vCPU и 4 ГБ RAM, во второй – 5 vCPU и 8 ГБ. Для d1-2B поднималась отдельная Ollama 0.40.15.
+VPS у [Justhost.ru](https://justhost.ru) с шаблоном Ollama: Intel Xeon Gold 6148, Ubuntu 24.04, swap 4 ГБ, Ollama 0.35.0 в Docker (llama.cpp 161755f29). В первой части – 4 vCPU и 4 ГБ RAM, во второй – 5 vCPU и 8 ГБ. Для d1-2B поднималась отдельная Ollama 0.40.15.
 
 ## Что где лежит
 
