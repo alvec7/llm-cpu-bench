@@ -1,0 +1,45 @@
+{
+ "hf.co/LiquidAI/LFM2.5-2.6B-GGUF:Q4_K_M": {
+  "model": "hf.co/LiquidAI/LFM2.5-2.6B-GGUF:Q4_K_M",
+  "n": 15,
+  "accuracy": 0.8,
+  "errors": 0,
+  "invalid_json": 2,
+  "latency_avg_s": 107.77,
+  "latency_p50_s": 93.88,
+  "latency_p95_s": 176.94,
+  "prompt_tok_s": 47.4,
+  "gen_tok_s": 9.3,
+  "avg_prompt_tokens": 1992.0,
+  "avg_output_tokens": 608.5,
+  "items_per_hour_1stream": 33,
+  "cold_start": {
+   "wall_s": 45.76,
+   "load_s": 10.34
+  },
+  "model_ram_gb": 1.69,
+  "host_peak_used_gb": 2.82,
+  "host_peak_swap_gb": 0.08,
+  "swap_io_mb": 16.4,
+  "think": "on",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 4096,
+   "num_predict": 1200
+  },
+  "quant": "Q4_K_M",
+  "params": "2.7B",
+  "answerable_correct": "10/12",
+  "honest_unknown": "2/3",
+  "false_refusals": 0,
+  "flag_inconsistent": 2,
+  "source_correct": "11/12",
+  "wrong": {
+   "5": "неверно",
+   "12": "неверно",
+   "15": "выдумал ответ"
+  },
+  "rescored": true
+ }
+}

@@ -1,0 +1,9 @@
+llama3.2:1b
+gemma3:1b
+hf.co/LiquidAI/LFM2.5-1.2B-Instruct-GGUF:Q4_K_M
+qwen3.5:2b
+granite4:micro-h
+hf.co/LiquidAI/LFM2.5-2.6B-GGUF:Q4_K_M
+gemma3:4b
+qwen3.5:4b
+hf.co/Vikhrmodels/QVikhr-3-4B-Instruction-GGUF:Q4_K_M

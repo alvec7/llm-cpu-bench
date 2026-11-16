@@ -1,0 +1,545 @@
+{
+ "llama3.2:1b": {
+  "model": "llama3.2:1b",
+  "n": 10,
+  "accuracy": 0.2,
+  "errors": 0,
+  "invalid_json": 0,
+  "latency_avg_s": 6.73,
+  "latency_p50_s": 6.62,
+  "latency_p95_s": 7.87,
+  "prompt_tok_s": 286.5,
+  "gen_tok_s": 14.7,
+  "avg_prompt_tokens": 399.0,
+  "avg_output_tokens": 79,
+  "items_per_hour_1stream": 535,
+  "cold_start": {
+   "wall_s": 19.85,
+   "load_s": 7.5
+  },
+  "model_ram_gb": 1.35,
+  "host_peak_used_gb": 1.91,
+  "host_peak_swap_gb": 0.08,
+  "swap_io_mb": 0.0,
+  "think": "n/a",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 2048,
+   "num_predict": 160
+  },
+  "quant": "Q8_0",
+  "params": "1.2B",
+  "field_accuracy": 0.683,
+  "by_field": {
+   "contact_name": "8/10",
+   "company": "9/10",
+   "phone": "9/10",
+   "email": "5/10",
+   "budget_rub": "6/10",
+   "deadline": "4/10"
+  },
+  "hallucinated_fields": 7,
+  "missed_fields": 0,
+  "wrong": {
+   "2": [
+    "email",
+    "budget_rub",
+    "deadline"
+   ],
+   "3": [
+    "company",
+    "email",
+    "deadline"
+   ],
+   "4": [
+    "budget_rub",
+    "deadline"
+   ],
+   "5": [
+    "contact_name"
+   ],
+   "6": [
+    "contact_name",
+    "email",
+    "budget_rub"
+   ],
+   "8": [
+    "email",
+    "budget_rub",
+    "deadline"
+   ],
+   "9": [
+    "phone",
+    "deadline"
+   ],
+   "10": [
+    "email",
+    "deadline"
+   ]
+  },
+  "rescored": true
+ },
+ "gemma3:1b": {
+  "model": "gemma3:1b",
+  "n": 10,
+  "accuracy": 0.2,
+  "errors": 0,
+  "invalid_json": 0,
+  "latency_avg_s": 8.95,
+  "latency_p50_s": 9.16,
+  "latency_p95_s": 10.33,
+  "prompt_tok_s": 88.0,
+  "gen_tok_s": 17.9,
+  "avg_prompt_tokens": 357.0,
+  "avg_output_tokens": 93.3,
+  "items_per_hour_1stream": 402,
+  "cold_start": {
+   "wall_s": 14.88,
+   "load_s": 4.53
+  },
+  "model_ram_gb": 0.82,
+  "host_peak_used_gb": 1.53,
+  "host_peak_swap_gb": 0.08,
+  "swap_io_mb": 0.0,
+  "think": "n/a",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 2048,
+   "num_predict": 160
+  },
+  "quant": "Q4_K_M",
+  "params": "999.89M",
+  "field_accuracy": 0.717,
+  "by_field": {
+   "contact_name": "9/10",
+   "company": "8/10",
+   "phone": "9/10",
+   "email": "8/10",
+   "budget_rub": "5/10",
+   "deadline": "4/10"
+  },
+  "hallucinated_fields": 4,
+  "missed_fields": 5,
+  "wrong": {
+   "2": [
+    "email",
+    "budget_rub",
+    "deadline"
+   ],
+   "3": [
+    "contact_name",
+    "company",
+    "email",
+    "deadline"
+   ],
+   "4": [
+    "budget_rub",
+    "deadline"
+   ],
+   "6": [
+    "deadline"
+   ],
+   "7": [
+    "company"
+   ],
+   "8": [
+    "budget_rub",
+    "deadline"
+   ],
+   "9": [
+    "phone",
+    "budget_rub",
+    "deadline"
+   ],
+   "10": [
+    "budget_rub"
+   ]
+  },
+  "rescored": true
+ },
+ "hf.co/LiquidAI/LFM2.5-1.2B-Instruct-GGUF:Q4_K_M": {
+  "model": "hf.co/LiquidAI/LFM2.5-1.2B-Instruct-GGUF:Q4_K_M",
+  "n": 10,
+  "accuracy": 0.3,
+  "errors": 0,
+  "invalid_json": 0,
+  "latency_avg_s": 6.65,
+  "latency_p50_s": 6.8,
+  "latency_p95_s": 7.67,
+  "prompt_tok_s": 113.5,
+  "gen_tok_s": 23.0,
+  "avg_prompt_tokens": 410.0,
+  "avg_output_tokens": 76.4,
+  "items_per_hour_1stream": 541,
+  "cold_start": {
+   "wall_s": 10.81,
+   "load_s": 3.97
+  },
+  "model_ram_gb": 0.76,
+  "host_peak_used_gb": 1.35,
+  "host_peak_swap_gb": 0.08,
+  "swap_io_mb": 0.0,
+  "think": "off",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 2048,
+   "num_predict": 160
+  },
+  "quant": "Q4_K_M",
+  "params": "1.17B",
+  "field_accuracy": 0.633,
+  "by_field": {
+   "contact_name": "9/10",
+   "company": "8/10",
+   "phone": "5/10",
+   "email": "5/10",
+   "budget_rub": "5/10",
+   "deadline": "6/10"
+  },
+  "hallucinated_fields": 8,
+  "missed_fields": 0,
+  "wrong": {
+   "2": [
+    "phone",
+    "email"
+   ],
+   "3": [
+    "email",
+    "budget_rub",
+    "deadline"
+   ],
+   "4": [
+    "phone",
+    "budget_rub",
+    "deadline"
+   ],
+   "6": [
+    "contact_name",
+    "phone",
+    "email",
+    "budget_rub"
+   ],
+   "8": [
+    "company",
+    "email",
+    "budget_rub",
+    "deadline"
+   ],
+   "9": [
+    "company",
+    "phone",
+    "deadline"
+   ],
+   "10": [
+    "phone",
+    "email",
+    "budget_rub"
+   ]
+  },
+  "rescored": true
+ },
+ "qwen3.5:2b": {
+  "model": "qwen3.5:2b",
+  "n": 10,
+  "accuracy": 0.6,
+  "errors": 0,
+  "invalid_json": 0,
+  "latency_avg_s": 16.46,
+  "latency_p50_s": 17.26,
+  "latency_p95_s": 18.53,
+  "prompt_tok_s": 46.5,
+  "gen_tok_s": 9.2,
+  "avg_prompt_tokens": 360.0,
+  "avg_output_tokens": 86.5,
+  "items_per_hour_1stream": 219,
+  "cold_start": {
+   "wall_s": 29.15,
+   "load_s": 10.09
+  },
+  "model_ram_gb": 2.17,
+  "host_peak_used_gb": 3.21,
+  "host_peak_swap_gb": 0.09,
+  "swap_io_mb": 0.1,
+  "think": "off",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 2048,
+   "num_predict": 160
+  },
+  "quant": "Q8_0",
+  "params": "1.9B",
+  "field_accuracy": 0.933,
+  "by_field": {
+   "contact_name": "10/10",
+   "company": "9/10",
+   "phone": "10/10",
+   "email": "10/10",
+   "budget_rub": "10/10",
+   "deadline": "7/10"
+  },
+  "hallucinated_fields": 0,
+  "missed_fields": 2,
+  "wrong": {
+   "3": [
+    "company"
+   ],
+   "4": [
+    "deadline"
+   ],
+   "8": [
+    "deadline"
+   ],
+   "9": [
+    "deadline"
+   ]
+  },
+  "rescored": true
+ },
+ "granite4:micro-h": {
+  "model": "granite4:micro-h",
+  "n": 10,
+  "accuracy": 0.6,
+  "errors": 0,
+  "invalid_json": 0,
+  "latency_avg_s": 21.15,
+  "latency_p50_s": 22.47,
+  "latency_p95_s": 23.96,
+  "prompt_tok_s": 37.9,
+  "gen_tok_s": 8.3,
+  "avg_prompt_tokens": 495,
+  "avg_output_tokens": 74.9,
+  "items_per_hour_1stream": 170,
+  "cold_start": {
+   "wall_s": 34.68,
+   "load_s": 10.98
+  },
+  "model_ram_gb": 1.96,
+  "host_peak_used_gb": 2.64,
+  "host_peak_swap_gb": 0.1,
+  "swap_io_mb": 1.4,
+  "think": "n/a",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 2048,
+   "num_predict": 160
+  },
+  "quant": "Q4_K_M",
+  "params": "3.2B",
+  "field_accuracy": 0.917,
+  "by_field": {
+   "contact_name": "10/10",
+   "company": "10/10",
+   "phone": "9/10",
+   "email": "10/10",
+   "budget_rub": "9/10",
+   "deadline": "7/10"
+  },
+  "hallucinated_fields": 1,
+  "missed_fields": 0,
+  "wrong": {
+   "3": [
+    "deadline"
+   ],
+   "8": [
+    "deadline"
+   ],
+   "9": [
+    "budget_rub",
+    "deadline"
+   ],
+   "10": [
+    "phone"
+   ]
+  },
+  "rescored": true
+ },
+ "gemma3:4b": {
+  "model": "gemma3:4b",
+  "n": 10,
+  "accuracy": 0.7,
+  "errors": 0,
+  "invalid_json": 0,
+  "latency_avg_s": 22.64,
+  "latency_p50_s": 22.84,
+  "latency_p95_s": 25.97,
+  "prompt_tok_s": 34.4,
+  "gen_tok_s": 7.3,
+  "avg_prompt_tokens": 359.0,
+  "avg_output_tokens": 93.2,
+  "items_per_hour_1stream": 159,
+  "cold_start": {
+   "wall_s": 43.85,
+   "load_s": 15.15
+  },
+  "model_ram_gb": 2.68,
+  "host_peak_used_gb": 3.77,
+  "host_peak_swap_gb": 0.46,
+  "swap_io_mb": 204.6,
+  "think": "n/a",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 2048,
+   "num_predict": 160
+  },
+  "quant": "Q4_K_M",
+  "params": "3.9B",
+  "field_accuracy": 0.95,
+  "by_field": {
+   "contact_name": "10/10",
+   "company": "10/10",
+   "phone": "10/10",
+   "email": "10/10",
+   "budget_rub": "9/10",
+   "deadline": "8/10"
+  },
+  "hallucinated_fields": 1,
+  "missed_fields": 0,
+  "wrong": {
+   "3": [
+    "deadline"
+   ],
+   "4": [
+    "budget_rub"
+   ],
+   "8": [
+    "deadline"
+   ]
+  },
+  "rescored": true
+ },
+ "qwen3.5:4b": {
+  "model": "qwen3.5:4b",
+  "n": 10,
+  "accuracy": 0.7,
+  "errors": 0,
+  "invalid_json": 0,
+  "latency_avg_s": 26.64,
+  "latency_p50_s": 28.05,
+  "latency_p95_s": 29.84,
+  "prompt_tok_s": 28.6,
+  "gen_tok_s": 5.9,
+  "avg_prompt_tokens": 360.0,
+  "avg_output_tokens": 88.3,
+  "items_per_hour_1stream": 135,
+  "cold_start": {
+   "wall_s": 50.24,
+   "load_s": 17.14
+  },
+  "model_ram_gb": 2.86,
+  "host_peak_used_gb": 3.75,
+  "host_peak_swap_gb": 0.32,
+  "swap_io_mb": 164.7,
+  "think": "off",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 2048,
+   "num_predict": 160
+  },
+  "quant": "Q4_K_M",
+  "params": "4.2B",
+  "field_accuracy": 0.95,
+  "by_field": {
+   "contact_name": "10/10",
+   "company": "10/10",
+   "phone": "10/10",
+   "email": "10/10",
+   "budget_rub": "10/10",
+   "deadline": "7/10"
+  },
+  "hallucinated_fields": 0,
+  "missed_fields": 0,
+  "wrong": {
+   "6": [
+    "deadline"
+   ],
+   "7": [
+    "deadline"
+   ],
+   "8": [
+    "deadline"
+   ]
+  },
+  "rescored": true
+ },
+ "hf.co/Vikhrmodels/QVikhr-3-4B-Instruction-GGUF:Q4_K_M": {
+  "model": "hf.co/Vikhrmodels/QVikhr-3-4B-Instruction-GGUF:Q4_K_M",
+  "n": 10,
+  "accuracy": 0.1,
+  "errors": 0,
+  "invalid_json": 0,
+  "latency_avg_s": 16.29,
+  "latency_p50_s": 16.56,
+  "latency_p95_s": 19.11,
+  "prompt_tok_s": 112.5,
+  "gen_tok_s": 6.4,
+  "avg_prompt_tokens": 416.0,
+  "avg_output_tokens": 81.7,
+  "items_per_hour_1stream": 221,
+  "cold_start": {
+   "wall_s": 41.64,
+   "load_s": 13.02
+  },
+  "model_ram_gb": 2.68,
+  "host_peak_used_gb": 3.29,
+  "host_peak_swap_gb": 0.12,
+  "swap_io_mb": 5.2,
+  "think": "off",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 2048,
+   "num_predict": 160
+  },
+  "quant": "Q4_K_M",
+  "params": "4.02B",
+  "field_accuracy": 0.833,
+  "by_field": {
+   "contact_name": "10/10",
+   "company": "7/10",
+   "phone": "10/10",
+   "email": "10/10",
+   "budget_rub": "9/10",
+   "deadline": "4/10"
+  },
+  "hallucinated_fields": 2,
+  "missed_fields": 0,
+  "wrong": {
+   "2": [
+    "company"
+   ],
+   "3": [
+    "budget_rub",
+    "deadline"
+   ],
+   "4": [
+    "deadline"
+   ],
+   "5": [
+    "company"
+   ],
+   "6": [
+    "deadline"
+   ],
+   "7": [
+    "deadline"
+   ],
+   "8": [
+    "deadline"
+   ],
+   "9": [
+    "company"
+   ],
+   "10": [
+    "deadline"
+   ]
+  },
+  "rescored": true
+ }
+}

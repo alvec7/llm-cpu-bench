@@ -1,0 +1,44 @@
+{
+ "hf.co/LiquidAI/LFM2.5-2.6B-GGUF:Q4_K_M": {
+  "model": "hf.co/LiquidAI/LFM2.5-2.6B-GGUF:Q4_K_M",
+  "n": 6,
+  "accuracy": 0.333,
+  "errors": 0,
+  "invalid_json": 4,
+  "latency_avg_s": 177.92,
+  "latency_p50_s": 187.0,
+  "latency_p95_s": 191.35,
+  "prompt_tok_s": 45.5,
+  "gen_tok_s": 9.9,
+  "avg_prompt_tokens": 335.0,
+  "avg_output_tokens": 1688.3,
+  "items_per_hour_1stream": 20,
+  "cold_start": {
+   "wall_s": 28.98,
+   "load_s": 8.0
+  },
+  "model_ram_gb": 1.66,
+  "host_peak_used_gb": 2.29,
+  "host_peak_swap_gb": 0.11,
+  "swap_io_mb": 2.2,
+  "think": "on",
+  "options": {
+   "temperature": 0.7,
+   "seed": 42,
+   "num_ctx": 2048,
+   "num_predict": 1800
+  },
+  "quant": "Q4_K_M",
+  "params": "2.7B",
+  "usable_ads": "9/30",
+  "title_within": "10/30",
+  "text_within": "10/30",
+  "keyword_in_title": "10/30",
+  "ads_with_bad_numbers": 0,
+  "ads_with_banned": 1,
+  "near_duplicate_pairs": 1,
+  "avg_title_len": 32.7,
+  "avg_text_len": 53.3,
+  "rescored": true
+ }
+}

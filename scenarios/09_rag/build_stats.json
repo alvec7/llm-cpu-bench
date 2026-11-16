@@ -1,0 +1,10 @@
+{
+ "embed_model": "bge-m3",
+ "n_chunks": 34,
+ "kb_words": 6129,
+ "index_s": 48.7,
+ "per_chunk_s": 1.43,
+ "query_s_avg": 0.1,
+ "retrieval_hits": "12/12",
+ "misses": []
+}

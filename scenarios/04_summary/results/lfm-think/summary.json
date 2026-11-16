@@ -1,0 +1,45 @@
+{
+ "hf.co/LiquidAI/LFM2.5-2.6B-GGUF:Q4_K_M": {
+  "model": "hf.co/LiquidAI/LFM2.5-2.6B-GGUF:Q4_K_M",
+  "n": 4,
+  "accuracy": 0.75,
+  "errors": 0,
+  "invalid_json": 1,
+  "latency_avg_s": 191.0,
+  "latency_p50_s": 168.81,
+  "latency_p95_s": 344.27,
+  "prompt_tok_s": 47.1,
+  "gen_tok_s": 9.4,
+  "avg_prompt_tokens": 2431.0,
+  "avg_output_tokens": 1292.5,
+  "items_per_hour_1stream": 19,
+  "cold_start": {
+   "wall_s": 171.65,
+   "load_s": 8.52
+  },
+  "model_ram_gb": 1.8,
+  "host_peak_used_gb": 2.48,
+  "host_peak_swap_gb": 0.11,
+  "swap_io_mb": 5.6,
+  "think": "on",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 6144,
+   "num_predict": 1800
+  },
+  "quant": "Q4_K_M",
+  "params": "2.7B",
+  "coverage_avg": 0.5,
+  "facts_covered": "16/32",
+  "unsupported_numbers": 0,
+  "min_cyrillic_share": 0,
+  "per_text": {
+   "1": 0.625,
+   "2": 0.75,
+   "3": 0.625,
+   "4": 0.0
+  },
+  "trap_hits": 0
+ }
+}

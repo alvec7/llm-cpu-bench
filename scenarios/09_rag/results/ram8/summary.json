@@ -1,0 +1,399 @@
+{
+ "hf.co/Vikhrmodels/QVikhr-3-4B-Instruction-GGUF:Q4_K_M": {
+  "model": "hf.co/Vikhrmodels/QVikhr-3-4B-Instruction-GGUF:Q4_K_M",
+  "n": 15,
+  "accuracy": 0.933,
+  "errors": 0,
+  "invalid_json": 0,
+  "latency_avg_s": 73.02,
+  "latency_p50_s": 73.27,
+  "latency_p95_s": 89.62,
+  "prompt_tok_s": 34.9,
+  "gen_tok_s": 4.8,
+  "avg_prompt_tokens": 2087.0,
+  "avg_output_tokens": 64,
+  "items_per_hour_1stream": 49,
+  "cold_start": {
+   "wall_s": 20.72,
+   "load_s": 13.76
+  },
+  "model_ram_gb": 2.97,
+  "host_peak_used_gb": 7.67,
+  "host_peak_swap_gb": 0.09,
+  "swap_io_mb": 43.2,
+  "think": "off",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 4096,
+   "num_predict": 200
+  },
+  "quant": "Q4_K_M",
+  "params": "4.02B",
+  "answerable_correct": "11/12",
+  "honest_unknown": "3/3",
+  "false_refusals": 0,
+  "flag_inconsistent": 0,
+  "source_correct": "12/12",
+  "wrong": {
+   "12": "неверно"
+  }
+ },
+ "qwen3.5:4b": {
+  "model": "qwen3.5:4b",
+  "n": 15,
+  "accuracy": 0.933,
+  "errors": 0,
+  "invalid_json": 0,
+  "latency_avg_s": 55.76,
+  "latency_p50_s": 52.9,
+  "latency_p95_s": 64.8,
+  "prompt_tok_s": 34.3,
+  "gen_tok_s": 6.3,
+  "avg_prompt_tokens": 1650.0,
+  "avg_output_tokens": 46.4,
+  "items_per_hour_1stream": 65,
+  "cold_start": {
+   "wall_s": 24.15,
+   "load_s": 18.24
+  },
+  "model_ram_gb": 2.92,
+  "host_peak_used_gb": 6.96,
+  "host_peak_swap_gb": 0.07,
+  "swap_io_mb": 11.0,
+  "think": "off",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 4096,
+   "num_predict": 200
+  },
+  "quant": "Q4_K_M",
+  "params": "4.2B",
+  "answerable_correct": "11/12",
+  "honest_unknown": "3/3",
+  "false_refusals": 0,
+  "flag_inconsistent": 0,
+  "source_correct": "12/12",
+  "wrong": {
+   "12": "неверно"
+  }
+ },
+ "qwen3.5:2b": {
+  "model": "qwen3.5:2b",
+  "n": 15,
+  "accuracy": 0.933,
+  "errors": 0,
+  "invalid_json": 0,
+  "latency_avg_s": 33.6,
+  "latency_p50_s": 32.2,
+  "latency_p95_s": 38.93,
+  "prompt_tok_s": 56.4,
+  "gen_tok_s": 10.0,
+  "avg_prompt_tokens": 1650.0,
+  "avg_output_tokens": 41.5,
+  "items_per_hour_1stream": 107,
+  "cold_start": {
+   "wall_s": 15.71,
+   "load_s": 12.09
+  },
+  "model_ram_gb": 2.2,
+  "host_peak_used_gb": 4.36,
+  "host_peak_swap_gb": 0.07,
+  "swap_io_mb": 0.8,
+  "think": "off",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 4096,
+   "num_predict": 200
+  },
+  "quant": "Q8_0",
+  "params": "1.9B",
+  "answerable_correct": "11/12",
+  "honest_unknown": "3/3",
+  "false_refusals": 0,
+  "flag_inconsistent": 1,
+  "source_correct": "9/12",
+  "wrong": {
+   "12": "неверно"
+  }
+ },
+ "gemma3:4b": {
+  "model": "gemma3:4b",
+  "n": 15,
+  "accuracy": 0.933,
+  "errors": 0,
+  "invalid_json": 0,
+  "latency_avg_s": 51.03,
+  "latency_p50_s": 49.46,
+  "latency_p95_s": 57.2,
+  "prompt_tok_s": 40.0,
+  "gen_tok_s": 7.5,
+  "avg_prompt_tokens": 1695.0,
+  "avg_output_tokens": 58.3,
+  "items_per_hour_1stream": 71,
+  "cold_start": {
+   "wall_s": 20.26,
+   "load_s": 14.99
+  },
+  "model_ram_gb": 2.68,
+  "host_peak_used_gb": 7.7,
+  "host_peak_swap_gb": 2.02,
+  "swap_io_mb": 2044.8,
+  "think": "n/a",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 4096,
+   "num_predict": 200
+  },
+  "quant": "Q4_K_M",
+  "params": "3.9B",
+  "answerable_correct": "11/12",
+  "honest_unknown": "3/3",
+  "false_refusals": 0,
+  "flag_inconsistent": 1,
+  "source_correct": "11/12",
+  "wrong": {
+   "12": "неверно"
+  }
+ },
+ "granite4:micro-h": {
+  "model": "granite4:micro-h",
+  "n": 15,
+  "accuracy": 0.867,
+  "errors": 0,
+  "invalid_json": 0,
+  "latency_avg_s": 67.95,
+  "latency_p50_s": 65.75,
+  "latency_p95_s": 72.86,
+  "prompt_tok_s": 44.9,
+  "gen_tok_s": 8.8,
+  "avg_prompt_tokens": 2732.0,
+  "avg_output_tokens": 59.8,
+  "items_per_hour_1stream": 53,
+  "cold_start": {
+   "wall_s": 15.18,
+   "load_s": 10.75
+  },
+  "model_ram_gb": 1.98,
+  "host_peak_used_gb": 6.19,
+  "host_peak_swap_gb": 0.08,
+  "swap_io_mb": 2.5,
+  "think": "n/a",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 4096,
+   "num_predict": 200
+  },
+  "quant": "Q4_K_M",
+  "params": "3.2B",
+  "answerable_correct": "10/12",
+  "honest_unknown": "3/3",
+  "false_refusals": 2,
+  "flag_inconsistent": 2,
+  "source_correct": "6/12",
+  "wrong": {
+   "3": "отказался, хотя ответ был",
+   "12": "отказался, хотя ответ был"
+  }
+ },
+ "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M": {
+  "model": "hf.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF:Q4_K_M",
+  "n": 15,
+  "accuracy": 0.933,
+  "errors": 0,
+  "invalid_json": 0,
+  "latency_avg_s": 63.47,
+  "latency_p50_s": 61.88,
+  "latency_p95_s": 74.95,
+  "prompt_tok_s": 45.4,
+  "gen_tok_s": 7.2,
+  "avg_prompt_tokens": 2561.0,
+  "avg_output_tokens": 42.9,
+  "items_per_hour_1stream": 57,
+  "cold_start": {
+   "wall_s": 66.76,
+   "load_s": 32.63
+  },
+  "model_ram_gb": 6.24,
+  "host_peak_used_gb": 7.63,
+  "host_peak_swap_gb": 0.1,
+  "swap_io_mb": 16.5,
+  "think": "n/a",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 4096,
+   "num_predict": 200
+  },
+  "quant": "Q4_K_M",
+  "params": "10.7B",
+  "answerable_correct": "12/12",
+  "honest_unknown": "2/3",
+  "false_refusals": 0,
+  "flag_inconsistent": 1,
+  "source_correct": "12/12",
+  "wrong": {
+   "13": "выдумал ответ"
+  }
+ },
+ "hf.co/yandex/YandexGPT-5-Lite-8B-instruct-GGUF:Q4_K_M": {
+  "model": "hf.co/yandex/YandexGPT-5-Lite-8B-instruct-GGUF:Q4_K_M",
+  "n": 15,
+  "accuracy": 0.933,
+  "errors": 0,
+  "invalid_json": 0,
+  "latency_avg_s": 82.1,
+  "latency_p50_s": 81.65,
+  "latency_p95_s": 102.49,
+  "prompt_tok_s": 19.7,
+  "gen_tok_s": 3.7,
+  "avg_prompt_tokens": 1260.0,
+  "avg_output_tokens": 70.4,
+  "items_per_hour_1stream": 44,
+  "cold_start": {
+   "wall_s": 29.79,
+   "load_s": 22.75
+  },
+  "model_ram_gb": 5.2,
+  "host_peak_used_gb": 7.68,
+  "host_peak_swap_gb": 0.82,
+  "swap_io_mb": 1094.9,
+  "think": "n/a",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 4096,
+   "num_predict": 200
+  },
+  "quant": "Q4_K_M",
+  "params": "8.04B",
+  "answerable_correct": "11/12",
+  "honest_unknown": "3/3",
+  "false_refusals": 0,
+  "flag_inconsistent": 0,
+  "source_correct": "12/12",
+  "wrong": {
+   "12": "неверно"
+  }
+ },
+ "hf.co/t-tech/T-lite-it-2.1-GGUF:Q4_K_M": {
+  "model": "hf.co/t-tech/T-lite-it-2.1-GGUF:Q4_K_M",
+  "n": 15,
+  "accuracy": 1.0,
+  "errors": 0,
+  "invalid_json": 0,
+  "latency_avg_s": 88.29,
+  "latency_p50_s": 89.31,
+  "latency_p95_s": 101.07,
+  "prompt_tok_s": 20.5,
+  "gen_tok_s": 3.6,
+  "avg_prompt_tokens": 1538.0,
+  "avg_output_tokens": 45.9,
+  "items_per_hour_1stream": 41,
+  "cold_start": {
+   "wall_s": 31.43,
+   "load_s": 23.6
+  },
+  "model_ram_gb": 5.34,
+  "host_peak_used_gb": 7.7,
+  "host_peak_swap_gb": 1.95,
+  "swap_io_mb": 2396.5,
+  "think": "off",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 4096,
+   "num_predict": 200
+  },
+  "quant": "Q4_K_M",
+  "params": "8.19B",
+  "answerable_correct": "12/12",
+  "honest_unknown": "3/3",
+  "false_refusals": 0,
+  "flag_inconsistent": 0,
+  "source_correct": "11/12",
+  "wrong": {}
+ },
+ "hf.co/Qwen/Qwen3-8B-GGUF:Q4_K_M": {
+  "model": "hf.co/Qwen/Qwen3-8B-GGUF:Q4_K_M",
+  "n": 15,
+  "accuracy": 1.0,
+  "errors": 0,
+  "invalid_json": 0,
+  "latency_avg_s": 119.63,
+  "latency_p50_s": 120.47,
+  "latency_p95_s": 133.89,
+  "prompt_tok_s": 20.2,
+  "gen_tok_s": 3.2,
+  "avg_prompt_tokens": 2087.0,
+  "avg_output_tokens": 50.1,
+  "items_per_hour_1stream": 30,
+  "cold_start": {
+   "wall_s": 33.4,
+   "load_s": 23.94
+  },
+  "model_ram_gb": 5.35,
+  "host_peak_used_gb": 7.68,
+  "host_peak_swap_gb": 2.99,
+  "swap_io_mb": 3450.8,
+  "think": "off",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 4096,
+   "num_predict": 200
+  },
+  "quant": "Q4_K_M",
+  "params": "8.19B",
+  "answerable_correct": "12/12",
+  "honest_unknown": "3/3",
+  "false_refusals": 0,
+  "flag_inconsistent": 0,
+  "source_correct": "12/12",
+  "wrong": {}
+ },
+ "hf.co/bartowski/THUDM_GLM-4-9B-0414-GGUF:Q4_K_M": {
+  "model": "hf.co/bartowski/THUDM_GLM-4-9B-0414-GGUF:Q4_K_M",
+  "n": 15,
+  "accuracy": 0.933,
+  "errors": 0,
+  "invalid_json": 0,
+  "latency_avg_s": 117.24,
+  "latency_p50_s": 112.5,
+  "latency_p95_s": 138.34,
+  "prompt_tok_s": 16.1,
+  "gen_tok_s": 3.1,
+  "avg_prompt_tokens": 1673.0,
+  "avg_output_tokens": 44.3,
+  "items_per_hour_1stream": 31,
+  "cold_start": {
+   "wall_s": 36.44,
+   "load_s": 29.38
+  },
+  "model_ram_gb": 6.0,
+  "host_peak_used_gb": 7.57,
+  "host_peak_swap_gb": 0.12,
+  "swap_io_mb": 9.7,
+  "think": "n/a",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 4096,
+   "num_predict": 200
+  },
+  "quant": "Q4_K_M",
+  "params": "9.4B",
+  "answerable_correct": "11/12",
+  "honest_unknown": "3/3",
+  "false_refusals": 0,
+  "flag_inconsistent": 0,
+  "source_correct": "11/12",
+  "wrong": {
+   "12": "неверно"
+  }
+ }
+}

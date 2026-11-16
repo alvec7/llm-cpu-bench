@@ -1,0 +1,62 @@
+{
+ "hf.co/LiquidAI/LFM2.5-2.6B-GGUF:Q4_K_M": {
+  "model": "hf.co/LiquidAI/LFM2.5-2.6B-GGUF:Q4_K_M",
+  "n": 3,
+  "accuracy": 0.333,
+  "errors": 0,
+  "invalid_json": 1,
+  "latency_avg_s": 193.2,
+  "latency_p50_s": 216.72,
+  "latency_p95_s": 223.19,
+  "prompt_tok_s": 44.5,
+  "gen_tok_s": 9.4,
+  "avg_prompt_tokens": 311.0,
+  "avg_output_tokens": 1755.7,
+  "items_per_hour_1stream": 19,
+  "cold_start": {
+   "wall_s": 52.92,
+   "load_s": 9.75
+  },
+  "model_ram_gb": 1.66,
+  "host_peak_used_gb": 2.26,
+  "host_peak_swap_gb": 0.11,
+  "swap_io_mb": 3.6,
+  "think": "on",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 2048,
+   "num_predict": 2000
+  },
+  "quant": "Q4_K_M",
+  "params": "2.7B",
+  "rows_correct": "13/30",
+  "rows_strict": "12/30",
+  "by_kind": {
+   "phone": 5,
+   "company": 8,
+   "address": 0
+  },
+  "wrong": {
+   "phone#2": "+7 (903) 555-1234",
+   "phone#4": "+7 495 123-45-67",
+   "phone#7": "+7 375 29-123-45-67",
+   "phone#8": "+7 89991 112233",
+   "phone#10": "+7 800 555-35-35",
+   "company#2": "ОБСО «Вектор»",
+   "company#4": "ИП Лаптев Д. О.",
+   "address#1": null,
+   "address#2": null,
+   "address#3": null,
+   "address#4": null,
+   "address#5": null,
+   "address#6": null,
+   "address#7": null,
+   "address#8": null,
+   "address#9": null,
+   "address#10": null
+  },
+  "bad_length": 1,
+  "rescored": true
+ }
+}

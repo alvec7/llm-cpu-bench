@@ -1,0 +1,55 @@
+{
+ "hf.co/LiquidAI/LFM2.5-2.6B-GGUF:Q4_K_M": {
+  "model": "hf.co/LiquidAI/LFM2.5-2.6B-GGUF:Q4_K_M",
+  "n": 24,
+  "accuracy": 0.833,
+  "errors": 0,
+  "invalid_json": 0,
+  "latency_avg_s": 64.89,
+  "latency_p50_s": 60.89,
+  "latency_p95_s": 98.59,
+  "prompt_tok_s": 49.5,
+  "gen_tok_s": 10.8,
+  "avg_prompt_tokens": 371.0,
+  "avg_output_tokens": 620.1,
+  "items_per_hour_1stream": 55,
+  "cold_start": {
+   "wall_s": 63.14,
+   "load_s": 7.93
+  },
+  "model_ram_gb": 1.66,
+  "host_peak_used_gb": 2.5,
+  "host_peak_swap_gb": 0.1,
+  "swap_io_mb": 1.8,
+  "think": "on",
+  "options": {
+   "temperature": 0,
+   "seed": 42,
+   "num_ctx": 2048,
+   "num_predict": 1024
+  },
+  "quant": "Q4_K_M",
+  "params": "2.7B",
+  "macro_f1": 0.843,
+  "aspects_f1": 0.807,
+  "acc_by_group": {
+   "positive": "5/5",
+   "negative": "5/5",
+   "neutral": "2/3",
+   "mixed": "4/4",
+   "sarcasm": "1/3",
+   "slang": "3/4"
+  },
+  "confusions": {
+   "negative→positive": 2,
+   "neutral→positive": 1,
+   "positive→negative": 1
+  },
+  "wrong_ids": [
+   11,
+   18,
+   19,
+   21
+  ]
+ }
+}
